@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les grilles bootstrap</title>
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Les grilles</a>
+        
+      
+        <div class="collapse navbar-collapse" id="navbarsExample02">
+          <ul class="navbar-nav ml-auto">
+           
+            <li class="nav-item nav-item-right">
+              <a class="nav-link" href="index.html">Retour</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <section class="p-5 text-center">
+        <h1 class="mb-5">Les <b class="text-danger">grilles bootstrap</b></h1>
+        <h3>La base des colonnes:</h3>
+        <div class="row mt-1">
+          <div class="col-md-6  p-3 bg-dark "></div>
+          <div class="col-md-6 p-3 bg-success"></div>
+        </div>
+        <div class="row">
+          <div class="col p-3 bg-success "></div>
+          <div class="col p-3 bg-dark"></div>
+        </div>
+        <h3>L'ordonnancement:</h3>
+        <div class="row mt-1">
+          <div class="col  p-3 bg-dark order-2"></div>
+          <div class="col p-3 bg-success"></div>
+        </div>
+        <h3>Décalage:</h3>
+        <div class="row">
+          <div class="col p-3 bg-success"></div>
+          <div class="col p-3 offset-4 bg-dark"></div>
+        </div>
+        <h3>Alignement: (éléments)</h3>
+        <div class="row mt-1 bg-warning" style="height: 100px;">
+          <div class="col-4 align-self-center p-3 bg-success"></div>
+          <div class="col-4 align-self-start p-3  bg-dark"></div>
+          <div class="col-4 align-self-end p-3 bg-success"></div>
+          
+        </div>
+        <h3>Alignement: (ligne)</h3>
+        <div class="row mt-1 bg-warning align-items-center" style="height: 100px;">
+          <div class="col-4 p-3 bg-success"></div>
+          <div class="col-4  p-3  bg-dark"></div>
+          <div class="col-4  p-3 bg-success"></div>
+          
+        </div>
+
+        <h3>Exercice:</h3>
+        <div class="row mt-1">
+          <div class="col-sm-12 bg-success">Entete</div>  
+        </div>
+        <div class="row mt-1">
+          <div class="col-sm-4 bg-success">Menu</div>  
+          <div class="col-sm-8 bg-success">Section</div>  
+        </div>
+        <div class="row mt-1">
+          <div class="col-sm-12 bg-success">Pied de page</div>  
+        </div>
+      
+    </section>
+</body>
+</html>
