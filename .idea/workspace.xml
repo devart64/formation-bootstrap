@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db296ec-a330-4d61-a573-44e5a24215db" name="Default Changelist" comment="ajout fichier js projet harry potter" />
+    <list default="true" id="1db296ec-a330-4d61-a573-44e5a24215db" name="Default Changelist" comment="ajout fichier js projet harry potter">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +67,7 @@
       <workItem from="1595918605586" duration="670000" />
       <workItem from="1596002931039" duration="2115000" />
       <workItem from="1596089442737" duration="2585000" />
-      <workItem from="1597817315664" duration="361000" />
+      <workItem from="1597817315664" duration="1221000" />
     </task>
     <task id="LOCAL-00001" summary="les animations">
       <created>1595919226237</created>
