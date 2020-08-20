@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formation bootstrap</title>
+</head>
+<body>
+<header class="p-5" style="background-image: url('https://images.tuto.net/ui/parkour/formation-developpeur-front-end/formation-developpeur-front-end-projet-768.jpg'); background-size: cover; background-position: center">
+    <img class=" d-block mr-auto ml-auto" src="https://pro.guslyon.fr/static/bootstrap-91ef1d801c29dad77caead5ad55116c5.png" width="600px" alt="logo" />
+</header>
+<!-- DEUXIEME ETAPE -->
+<nav class="navbar navbar-dark navbar-expand-md bg-dark sticky-top">
+    <div class="container">
+        <div class="navbar-brand">Ma formation</div>
+        <!-- NE PAS TOUCHER (boutton en responsive : oui je suis gentil) -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarText">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- LES LIENS (Je vous laisse l'ID navbarText, mais pensez aux classes) -->
+        <div class="collapse navbar-collapse text-center" id="navbarText">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="formation-bootstrap.html" class="nav-link">Bootstrap</a>
+                </li>
+                <li class="nav-item">
+                    <a href="formationhtml.html" class="nav-link">Html (Grafikart)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container conteneur-principal">
+    <h3>Liste des projets réalisés pendant la formation:</h3>
+    <ul>
+        <li><a href="projets/chamelle&co/chamelle.html">Chamelles & co</a></li>
+        <li><a href="projets/tinder/tinder.html">Tinder</a></li>
+        <li><a href="projets/tesla/tesla.html">Tesla</a></li>
+        <li><a href="projets/harrypotter/harrypotter.html">Harry Potter</a></li>
+    </ul>
+    <br>
+    <p>Les tests de cours : </p>
+    <ul>
+        <li><a href="/composant.html" class="inline">On test les composants bootstrap!</a></li>
+        <li><a href="/grille.html" class="inline">Les grilles bootstrap!</a></li>
+        <li><a href="/animation.html" class="inline">Les composant d'animation</a></li>
+        <li><a href="./SASS/index.html" class="inline">Test de SASS: modification de variables</a></li>
+    </ul>
+    <br>
+    <p class="inline">Repositorty => <a class="inline" target="_blank" href="https://github.com/devart64/formation-bootstrap">Repository du code des projets de la formation</a></p>
+    <br>
+    <p class="inline">Lien vers le trello de l'aventure => <a class="inline" target="_blank" href="https://trello.com/b/nk1UsqdH">Formation Bootstrap</a></p>
+    <br>
+    <p>Mes certificats : </p>
+    <ul>
+        <li>Bootstrap 4 : <a href="certificat/UC-d1381258-cd02-430b-ba50-277f8d028d92.pdf" target="_blank">Voir le diplôme</a></li>
+    </ul>
+</div>
+<!-- CINQUIEME ETAPE -->
+<br>
+<footer class="bg-dark text-light p-3 mt-5 text-right">
+    <div class="container">
+        2020 © Stephen Dupré
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="../../vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
